@@ -6,7 +6,7 @@ const { createNodeFactory } = createNodeHelpers({ typePrefix: `Tumblr` })
 const PostNode = createNodeFactory(`Post`)
 
 export const sourceNodes = async (
-  { boundActionCreators: { createNode } },
+  { actions: { createNode } },
   { blogIdentifier, consumerKey },
 ) => {
   const client = createClient({ blogIdentifier, consumerKey })
