@@ -23,7 +23,7 @@
   "author": "Angelo Ashmore",
   "license": "MIT",
   "dependencies": {
-    "gatsby-node-helpers": "^1.2.1",
+    "gatsby-node-helpers": "^0.1.3",
     "node-fetch": "^2.6.7"
   },
   "devDependencies": {
